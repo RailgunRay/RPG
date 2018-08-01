@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My_Dream_2D 2", "Assembly-CSharp.csproj", "{DB499D87-8B5C-6374-3D6F-B5F8E588A2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My_Dream_2D 2", "Assembly-CSharp-Editor.csproj", "{3AF0152C-E88E-62EF-C792-DB56FAEA8B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB499D87-8B5C-6374-3D6F-B5F8E588A2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB499D87-8B5C-6374-3D6F-B5F8E588A2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB499D87-8B5C-6374-3D6F-B5F8E588A2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB499D87-8B5C-6374-3D6F-B5F8E588A2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF0152C-E88E-62EF-C792-DB56FAEA8B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF0152C-E88E-62EF-C792-DB56FAEA8B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF0152C-E88E-62EF-C792-DB56FAEA8B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF0152C-E88E-62EF-C792-DB56FAEA8B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
