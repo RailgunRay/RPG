@@ -12,7 +12,7 @@ public class HurtEnemy : MonoBehaviour {
 
     private float[] floatArr = new float[10];
 
-    private PlayerStats thePS;
+    public PlayerStats thePS;
 
 
 	// Use this for initialization

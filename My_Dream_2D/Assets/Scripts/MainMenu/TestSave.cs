@@ -11,7 +11,7 @@ public class TestSave : MonoBehaviour
     public GameObject Game;
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+
     }
 
     void Start()

@@ -19,10 +19,7 @@ public class PlayerController : MonoBehaviour {
     private float attackTimeCounter;
 
     public string startPoint;
-
-
-    public GameObject Game;
-    public GameObject _Menu;
+ 
     public AudioClip AttackAudio;
 
     // Use this for initialization
@@ -88,13 +85,7 @@ public class PlayerController : MonoBehaviour {
                 AudioManager.instance.PlaySound(AttackAudio, transform.position);
             }
 
-            //Menu
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Game.SetActive(false);
-                _Menu.SetActive(true);
-                
-            }
+           
 
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
             {
